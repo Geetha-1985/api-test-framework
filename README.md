@@ -106,6 +106,7 @@ api-test-framework/
 5. **Configure API tokens**
    - Edit `.env` file
    - Add your GoRest API token: `GOREST_TOKEN=your_token_here`
+   - Get free token at: https://gorest.co.in/
 
 6. **Create necessary folders**
    -  mkdir logs
