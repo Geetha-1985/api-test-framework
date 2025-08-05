@@ -400,7 +400,9 @@ Ready-to-use GitHub Actions workflow:
 ```
 
 ```bash
-.github/workflows/api-tests.yml
+mkdir -p .github/workflows
+cp api-tests.yml.txt .github/workflows/api-tests.yml
+```
 ```
 
 Features:
