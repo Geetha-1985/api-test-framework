@@ -81,9 +81,10 @@ api-test-framework/
    python -m venv venv
    venv\Scripts\activate  # Windows
    
-   If the below error is seen, then execute the below steps.
-
-   ![alt text](image.png)
+   Error:
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+   If the above error is seen, then execute the below steps.
 
    Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process #Temporarily allow script execution (for current session only)
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser #Permanently allow scripts for your user
