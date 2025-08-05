@@ -116,7 +116,7 @@ api-test-framework/
 
 ## Configuration
 
-### Environment Configuration
+### Environment Configuration (Already configured config.py file available)
 
 The framework supports multiple environments through the `config.py` file:
 
@@ -128,7 +128,7 @@ ENVIRONMENTS = {
 }
 ```
 
-### Environment Variables
+### Environment Variables 
 
 | Variable | Description | Default |
 |----------|-------------|---------|
@@ -140,7 +140,7 @@ ENVIRONMENTS = {
 | `LOG_LEVEL` | Logging level | `INFO` |
 | `LOG_REQUESTS` | Enable request/response logging | `true` |
 
-### Test Configuration
+### Test Configuration (Already configured)
 
 Modify `pytest.ini` for test execution settings:
 
