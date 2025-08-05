@@ -76,7 +76,7 @@ api-test-framework/
    cd api-test-framework
    ```
 
-2. **Create virtual environment** (recommended)
+2. **Create virtual environment** 
    ```bash
    python -m venv venv
    venv\Scripts\activate  # Windows
@@ -87,7 +87,7 @@ api-test-framework/
 
    If the above error is seen, then execute the below steps.
 
-   Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process #Temporarily allow script execution (for current session only)
+   Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process #Temporarily allow script execution #for current session only
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser #Permanently allow scripts for your user
 
    venv\Scripts\Activate.ps1
