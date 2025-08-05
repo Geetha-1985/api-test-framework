@@ -9,8 +9,7 @@
 6. [Test Structure](#test-structure)
 7. [Features](#features)
 8. [CI/CD Integration](#cicd-integration)
-9. [Troubleshooting](#troubleshooting)
-10. [Maintenance](#maintenance)
+9. [Maintenance](#maintenance)
 
 ## Overview
 
@@ -409,7 +408,7 @@ The framework includes a complete CI/CD pipeline:
 mkdir -p .github/workflows
 cp api-tests.yml.txt .github/workflows/api-tests.yml
 ```
-```
+
 
 Features:
 - **Multi-environment testing**: Different Python versions
@@ -417,7 +416,7 @@ Features:
 - **Artifact collection**: Test reports and logs
 - **Scheduled runs**: Nightly regression testing
 - **Security scanning**: Dependency vulnerability checks
-
+```
 
 ## Maintenance
 
