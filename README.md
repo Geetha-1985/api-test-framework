@@ -82,8 +82,9 @@ api-test-framework/
    venv\Scripts\activate  # Windows
    
    Error:
-    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
-    + FullyQualifiedErrorId : UnauthorizedAccess
+   <span style="color: red;">+ CategoryInfo          : SecurityError: (:) [], PSSecurityException</span>
+   <span style="color: red;">+ FullyQualifiedErrorId : UnauthorizedAccess</span>
+
    If the above error is seen, then execute the below steps.
 
    Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process #Temporarily allow script execution (for current session only)
