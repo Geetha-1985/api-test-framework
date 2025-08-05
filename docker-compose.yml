@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  api-tests:
+    build: .
+    volumes:
+      - .:/app
+      - ./reports:/app/reports
+    environment:
+      - TEST_ENV=dev
+      - GOREST_TOKEN=${GOREST_TOKEN}
+    working_dir: /app
+    command: pytest tests/ --html=reports/report.html --allure-dir=reports/allure-results
+
+  test-runner:
+    image: python:3.9
+    volumes:
+      - .:/app
+    working_dir: /app
+    environment:
+      - TEST_ENV=dev
+      - GOREST_TOKEN=${GOREST_TOKEN}
+    command: sh -c "pip install -r requirements.txt && pytest tests/ --html=reports/report.html"
