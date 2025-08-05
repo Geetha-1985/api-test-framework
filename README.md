@@ -82,8 +82,8 @@ api-test-framework/
    venv\Scripts\activate  # Windows
    
    Error:
-   <span style="color: red;">+ CategoryInfo          : SecurityError: (:) [], PSSecurityException</span>
-   <span style="color: red;">+ FullyQualifiedErrorId : UnauthorizedAccess</span>
+   + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+   + FullyQualifiedErrorId : UnauthorizedAccess
 
    If the above error is seen, then execute the below steps.
 
