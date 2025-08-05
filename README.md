@@ -72,7 +72,7 @@ api-test-framework/
 
 1. **Clone the repository**
    ```bash
-   git clone [<repository-url>](https://github.com/Geetha-1985/api-test-framework.git)
+   git clone https://github.com/Geetha-1985/api-test-framework.git
    cd api-test-framework
    ```
 
