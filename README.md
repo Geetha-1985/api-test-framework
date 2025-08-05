@@ -166,6 +166,8 @@ pytest tests/ --html=reports/report.html
 
 # Run with Allure reporting
 pytest tests/ --alluredir=reports/allure-results
+allure generate reports/allure-results -o reports/allure-report
+allure open reports/allure-report
 ```
 
 ### Test Categories
