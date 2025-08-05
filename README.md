@@ -399,12 +399,6 @@ Ready-to-use GitHub Actions workflow:
 # Artifact collection and reporting
 ```
 
-## CI/CD Integration
-
-### GitHub Actions
-
-The framework includes a complete CI/CD pipeline:
-
 ```bash
 .github/workflows/api-tests.yml
 ```
