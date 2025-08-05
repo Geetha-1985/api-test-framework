@@ -190,6 +190,7 @@ pytest tests/test_authentication.py::TestAuthentication::test_tc_auth_001_valid_
 ```bash
 # Run with in parallel with specific number of workers
 pytest tests/ -n 4
+```
 
 ## Test Structure
 
