@@ -50,14 +50,11 @@ api-test-framework/
 │   ├── test_error_handling.py   # Error handling tests
 │   ├── test_performance.py      # Performance tests
 │   └── test_edge_cases.py       # Edge case tests
-├── reports/                     # Test reports and logs
+├── reports/                     # Test reports (allure/html) and logs
 ├── logs/                        # Application logs
 ├── conftest.py                  # Pytest configuration
-├── pytest.ini                  # Pytest settings
+├── pytest.ini                   # Pytest settings
 ├── requirements.txt             # Dependencies
-├── Makefile                     # Build automation
-├── docker-compose.yml           # Docker configuration
-├── Dockerfile                   # Container definition
 └── .github/workflows/           # CI/CD pipelines
 ```
 
